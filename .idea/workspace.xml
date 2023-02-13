@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b66be69-d344-40db-9831-990ec8cd378e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/3DVG.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/data/scannet/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/data/scannet/batch_load_scannet_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/data/scannet/load_scannet_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/data/scannet/meta_data/nyu40_labels.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/data/scannet/meta_data/scannet_means.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/data/scannet/meta_data/scannet_reference_means.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/data/scannet/meta_data/scannetv2-labels.combined.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/data/scannet/meta_data/scannetv2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/data/scannet/meta_data/scannetv2_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/data/scannet/meta_data/scannetv2_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/data/scannet/meta_data/scannetv2_val.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/data/scannet/model_util_scannet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/data/scannet/scannet_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/data/scannet/visualize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/ap_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/enet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/eval_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/loss_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/_ext_src/include/ball_query.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/_ext_src/include/cuda_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/_ext_src/include/group_points.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/_ext_src/include/interpolate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/_ext_src/include/sampling.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/_ext_src/include/utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/_ext_src/src/ball_query.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/_ext_src/src/ball_query_gpu.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/_ext_src/src/bindings.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/_ext_src/src/group_points.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/_ext_src/src/group_points_gpu.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/_ext_src/src/interpolate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/_ext_src/src/interpolate_gpu.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/_ext_src/src/sampling.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/_ext_src/src/sampling_gpu.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/_version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/pointnet2_modules.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/pointnet2_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/pointnet2_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/pytorch_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/pointnet2/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/projection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/lib/solver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/models/backbone_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/models/containers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/models/detr/detr3d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/models/detr/position_encoding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/models/detr/transformer3D.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/models/lang_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/models/match_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/models/proposal_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/models/refnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/models/transformer/attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/models/transformer/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/models/voting_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/scripts/ScanRefer_eval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/scripts/ScanRefer_train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/scripts/compute_multiview_features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/scripts/project_multiview_features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/scripts/project_multiview_labels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/scripts/utils/AdamW.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/scripts/utils/script_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/scripts/visualize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/utils/AdamW.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/utils/box_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/utils/eta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/utils/eval_det.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/utils/metric_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/utils/nms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/utils/nn_distance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/utils/pc_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeDVG/vocab.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2LgUx08PQYM9ZUbIWIELoFhsFh9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b66be69-d344-40db-9831-990ec8cd378e" name="Changes" comment="" />
+      <created>1676292461391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676292461391</updated>
+      <workItem from="1676292462656" duration="538000" />
+      <workItem from="1676300372615" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
