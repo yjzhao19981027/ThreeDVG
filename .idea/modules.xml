@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/3DVG.iml" filepath="$PROJECT_DIR$/.idea/3DVG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ThreeDVG.iml" filepath="$PROJECT_DIR$/.idea/ThreeDVG.iml" />
     </modules>
   </component>
 </project>
