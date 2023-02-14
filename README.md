@@ -1,28 +1,34 @@
 # 视觉-文本实体链接使用说明
 
-## 1. 环境依赖
+## 1. 算法描述
+
+3D Visual Grounding是指机器接收到一组点云数据和language信息之后，给出language信息所对应的相关物体的点云。
+
+## 2. 环境依赖及安装
 
 CUDA版本: 11.7
 其他依赖库的安装命令如下：
 
 ```bash
 conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
-```
-
-## 2. 下载安装
-
-可使用如下命令下载安装算法包：
-```bash
 pip install ThreeDVG
 ```
 
-## 3. 使用示例及运行参数说明
+## 3. 使用示例
 
 ### 输入：
 data_dict: dict
         {
             point_clouds,
-            lang_feat
+            lang_num，
+            lang_feat_list，
+            lang_len_list，
+            main_lang_feat_list，
+            main_lang_len_list，
+            first_obj_list，
+            unk_list，
+            unk，
+            istrain
         }
 
 point_clouds: Variable(torch.cuda.FloatTensor)
@@ -69,3 +75,22 @@ if __name__ == "__main__":
     GLOVE_PICKLE = "/data/zhaoyj/mmkg-3d-3dvg/glove.p"
     bbox = MM3DVG(args=args).inference(data_dict=data_dict)
 ```
+
+## 4. 参数说明
+
+```
+point_clouds            点云数据 B, N, 3+1+128(multiview)
+lang_num，              句子数，默认1 
+lang_feat_list，        glove映射后的句子 B, N, 单词数, 映射维度（300）
+lang_len_list，         句子单词数
+main_lang_feat_list，   glove映射后的重要的一句，只有一句话则默认本身 B, N, 单词数, 映射维度（300）
+main_lang_len_list，    句子单词数
+first_obj_list，        句子中第一个重要的单词
+unk_list，              glove中未对应的单词列表
+unk，                   glove中未对应的单词
+istrain                 是否为训练模式，为否
+```
+
+## 5. 论文引用
+
+本项目代码使用了ICCV 2021的3DVG-Transformer，其提出了一个基于transformer的模型用于解决3D Visual Grounding任务，并取得了SOTA效果。
